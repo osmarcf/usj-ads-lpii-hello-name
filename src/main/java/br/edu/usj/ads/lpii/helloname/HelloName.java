@@ -14,7 +14,6 @@ public class HelloName {
         String mensagem = "Olá, " + nome + "!";
 
         ModelAndView modelAndView = new ModelAndView("hello-name");
-        
         modelAndView.addObject("mensagem", mensagem);
         
         return modelAndView;
